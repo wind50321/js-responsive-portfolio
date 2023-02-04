@@ -1,9 +1,9 @@
-/* ==================== MENU SHOW Y HIDDEN ==================== */
+/*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),
       navClose = document.getElementById('nav-close');
 
-/* ===== MENU SHOW ===== */
+/*===== MENU SHOW =====*/
 /* Validate if constant exists */
 if (navToggle) {
     navToggle.addEventListener('click', () => {
@@ -11,7 +11,7 @@ if (navToggle) {
     });
 }
 
-/* ===== MENU HIDDEN ===== */
+/*===== MENU HIDDEN =====*/
 /* Validate if constant exists */
 if (navClose) {
     navClose.addEventListener('click', () => {
@@ -19,7 +19,7 @@ if (navClose) {
     });
 }
 
-/* ==================== REMOVE MENU MOBILE ==================== */
+/*==================== REMOVE MENU MOBILE ====================*/
 const menuLink = document.querySelectorAll('.nav__link');
 
 function linkAction() {
