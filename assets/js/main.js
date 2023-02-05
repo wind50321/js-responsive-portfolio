@@ -1,7 +1,7 @@
 /*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById('nav-menu'),
-      navToggle = document.getElementById('nav-toggle'),
-      navClose = document.getElementById('nav-close');
+    navToggle = document.getElementById('nav-toggle'),
+    navClose = document.getElementById('nav-close');
 
 /*===== MENU SHOW =====*/
 /* Validate if constant exists */
@@ -28,4 +28,4 @@ function linkAction() {
     navMenu.classList.remove('show-menu');
 }
 
-menuLink.forEach(n => n.addEventListener('click', linkAction));
+menuLink.forEach((n) => n.addEventListener('click', linkAction));
